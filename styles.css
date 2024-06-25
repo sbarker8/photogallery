@@ -1,22 +1,16 @@
 html{
-    background-color: black;
-    
-   
-  
-    
+    background-color: black;   
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color:white;
     margin:0 auto;
-    width:485px;
+    width:488px;  
 }
-header main footer{
-    width:450px;
-}
+
 .about h2, .about p{
     color:black;
-    
+  
 }
 p {
     font-size: 1.25em;
@@ -38,7 +32,6 @@ padding: 30px;
 nav li{
     display: inline;
     margin:auto 5px;
-    
 
 }
 nav a {
@@ -46,8 +39,7 @@ nav a {
     color:white;
     text-transform: uppercase;
     text-decoration: none;
-    
-    
+   
 }
 nav li a{
     text-align: center;
@@ -82,21 +74,67 @@ text-align: center;
 /*image styles*/
 img{
     margin:0 auto;
+    width:400px;
+    height: auto;
 }
 
 form{
+    background-color: black;
     color:white;
 
 }
-form::placeholder{
+form h2{
+    padding-top: 10px;
+}
+form p{
+    text-align: center;
+    width:450px;
+}
+::placeholder{
     color: #007d7b;
-
+text-transform: uppercase;
+font-weight: bold;
 }
-    
-input form{
-    background-color: white;
+input{
+    width: 90%;
+    padding: 6px 10px;
+    margin:0;   
 }
-footer p{
+label{
     text-transform: uppercase;
 }
+
+input form{
+    background-color: white; 
+    
+}
+input[type=submit]{
+    background-color: #007d7b;
+    color:white;
+    text-transform: uppercase;
+    font-weight: bold;
+    width:150px;
+    border-radius: 10px;
+    border: none;
+    margin:0 auto;
+    float: none;
+}
+.button{
+    text-align: center;
+    margin-bottom: 0;
+}
+.form div{
+    margin-top:15px;
+}
+footer {
+    text-transform: uppercase;
+    color:white;
+    background-color: black;
+    text-align: center;
+    margin:0 auto;
+    padding:5px;
+    padding-top: 50px;
+    
+}
+
    
