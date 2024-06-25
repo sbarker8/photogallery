@@ -82,11 +82,13 @@ img{
 }
 .images img{
     z-index:1;
-}
 
-.images figcaption{
-    z-index:2;
+}
+figure{
     text-align: center;
+}
+.image figcaption{
+    z-index: 2;
 }
 .images figcaption[id*="w"]{
 
@@ -96,11 +98,15 @@ img{
     color: black;
 }
 .images figcaption[id*="t"]{
-    float: ;}
+   
+    bottom:40px;
+    
 
-    .images figcaption[id*="w"]{{
-        float
-    }
+}
+
+.images figcaption[id*="u"]{
+    
+}
 form{
     background-color: black;
     color:white;
