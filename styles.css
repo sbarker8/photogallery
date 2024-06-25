@@ -223,6 +223,9 @@ nav li{
      nav{
         text-align: right;
      }
+     .images figure{
+        margin:0;
+    }
      .images{
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
