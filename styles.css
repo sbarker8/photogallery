@@ -20,7 +20,7 @@ nav a {
     color:white;
     text-transform: uppercase;
     text-decoration: none;
-    
+    display:inline-block;
 }
 
 h1 {
