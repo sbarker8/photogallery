@@ -15,18 +15,37 @@ figcaption, label, input, small {
 nav a {
     font-size: 1.5em;
     color:white;
+    text-transform: uppercase;
 }
 
 h1 {
     font-size: 3em;
     color:#007d7b;
     background-color:white;
+    text-align: center;
+    text-transform: uppercase;
 }
 nav{
     background-color: black;
 }
 h2 {
-    font-size: 2em;}
-    
-    /*hint styles done*/
+    font-size: 2em;
+text-transform: uppercase;
+}
 
+form{
+    color:white;
+
+}
+form::placeholder{
+    color: #007d7b;
+
+}
+    
+input form{
+    background-color: white;
+}
+footer p{
+    text-transform: uppercase;
+}
+   
