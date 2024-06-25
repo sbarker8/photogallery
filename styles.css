@@ -10,6 +10,8 @@ body{
 
 .about h2, .about p{
     color:black;
+    margin-left: 5px;
+    margin-right:5px ;
   
 }
 p {
@@ -98,15 +100,13 @@ figure{
     color: black;
 }
 .images figcaption[id*="t"]{
-   
+   position: relative;
     bottom:40px;
     
 
 }
 
-.images figcaption[id*="u"]{
-    
-}
+
 form{
     background-color: black;
     color:white;
