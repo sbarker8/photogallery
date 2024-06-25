@@ -33,7 +33,7 @@ h1 {
 nav{
     background-color: black;
     text-align: center;
-    display:flex;
+    display:inline-block;
 }
 h2 {
     font-size: 2em;
