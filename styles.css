@@ -5,7 +5,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color:white;
     margin:0 auto;
-    width:486px;  
+    width:485px;  
 }
 
 .about h2, .about p{
@@ -101,10 +101,13 @@ figure{
 }
 .images figcaption[id*="t"]{
    position: relative;
-    bottom:200px;
+    bottom:240px;
     margin:0 auto;
-    
-
+}
+.images figcaption[id*="t"]{
+    position: relative;
+    margin: 0 auto;
+    bottom: 40px;
 }
 
 
@@ -167,4 +170,25 @@ footer {
     
 }
 
-   
+   @media screen and (min-width:880px) and (max-width:1300px){
+
+    h1{
+       text-align: left; 
+    }
+    body{
+        width:880px;
+    }
+    form p{
+        width:100%;
+    }
+    form input{
+        width:100%;
+    }
+nav li{
+    justify-content: center;
+}
+div{
+    display:flexbox;
+    columns: 2;
+}
+   }
