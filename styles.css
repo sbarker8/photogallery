@@ -213,6 +213,7 @@ nav li{
      form input{
          width:100%;
      }
+  
      input[type=submit]{
          width:600px;
  
@@ -223,7 +224,7 @@ nav li{
      .images{
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
-     
+     width: 1300px;
         margin: 0 auto;
         justify-content: center;
         height: fit-content;
