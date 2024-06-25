@@ -184,13 +184,19 @@ footer {
     form input{
         width:100%;
     }
+    input[type=submit]{
+        width:400px;
+
+    }
 nav li{
     justify-content: center;
 }
-div{
-    display:flexbox;
-    columns: 2;
+.images {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    
     margin: 0 auto;
     justify-content: center;
+    height: fit-content;
 }
    }
