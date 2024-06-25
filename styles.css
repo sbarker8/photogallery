@@ -22,7 +22,7 @@ figcaption, label, input, small {
 nav{
     background-color: black;
     text-align: center;
-    display:inline-block;
+    display:block;
 }
 
 nav a {
@@ -30,7 +30,7 @@ nav a {
     color:white;
     text-transform: uppercase;
     text-decoration: none;
-    display:block;
+    
 }
 
 h1 {
