@@ -84,7 +84,7 @@ img{
 }
 .images img{
     z-index:1;
-
+margin:8px;
 }
 figure{
     text-align: center;
