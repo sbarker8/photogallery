@@ -101,7 +101,8 @@ figure{
 }
 .images figcaption[id*="t"]{
    position: relative;
-    bottom:40px;
+    bottom:200px;
+    margin:0 auto;
     
 
 }
