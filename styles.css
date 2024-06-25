@@ -200,3 +200,33 @@ nav li{
     height: fit-content;
 }
    }
+   @media screen and (min-width:1300px){
+    h1{
+        text-align: left; 
+     }
+     body{
+         width:1300px;
+     }
+     form p{
+         width:100%;
+     }
+     form input{
+         width:100%;
+     }
+     input[type=submit]{
+         width:600px;
+ 
+     }
+     nav{
+        text-align: right;
+     }
+     .images{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+     
+        margin: 0 auto;
+        justify-content: center;
+        height: fit-content;
+    }
+   }
+ 
