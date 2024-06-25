@@ -104,7 +104,7 @@ figure{
     bottom:240px;
     margin:0 auto;
 }
-.images figcaption[id*="t"]{
+.images figcaption[id*="u"]{
     position: relative;
     margin: 0 auto;
     bottom: 40px;
@@ -190,5 +190,7 @@ nav li{
 div{
     display:flexbox;
     columns: 2;
+    margin: 0 auto;
+    justify-content: center;
 }
    }
