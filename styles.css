@@ -5,7 +5,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color:white;
     margin:0 auto;
-    width:488px;  
+    width:486px;  
 }
 
 .about h2, .about p{
@@ -34,6 +34,7 @@ nav li{
     margin:auto 5px;
 
 }
+
 nav a {
     font-size: 1.5em;
     color:white;
@@ -48,6 +49,8 @@ nav li a{
     position:fixed;
     bottom:0px;
     right:0px;
+    border: solid 2px white;
+    padding:2px;
 }
 main{
     background-color: white;
@@ -77,7 +80,27 @@ img{
     width:400px;
     height: auto;
 }
+.images img{
+    z-index:1;
+}
 
+.images figcaption{
+    z-index:2;
+    text-align: center;
+}
+.images figcaption[id*="w"]{
+
+    color:white;
+}
+.images figcaption[id*="b"]{
+    color: black;
+}
+.images figcaption[id*="t"]{
+    float: ;}
+
+    .images figcaption[id*="w"]{{
+        float
+    }
 form{
     background-color: black;
     color:white;
